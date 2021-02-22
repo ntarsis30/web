@@ -1,29 +1,28 @@
 /*
-  (this is a CSS comment)
-  Clyde "Thluffy" Sinclair
-  IntroCS pd00 sec00
-  HW99 -- demo/sample
-  2021-02-02
+  Nicholas Tarsis
+  IntroCS pd5 sec08
+  HW5 -- Stuylin'
+  2021-02-21
 */
 
-/*
-structure of a CSS ruleset:
-SELECTOR { 0 or more DECLARATIONS }
-where each declaration is of the form
-PROPERTY : VALUE;
- */
-
-/* this will style all h1 elements with color red */
+/*Here, the top and largest heading heading will now have italic font, the heading will be clack, and it is now placed in the center of the webpage*/
 h1 {
-    color: red
+	font-style: italic
+	color: DarkSlateGrey
+	text-align: center
 }
 
-/* this will style all h2 elements with color blue */
-h2 {
-    color: blue
+/* Here, the paragraphs have a larger font, a solid border, and have normal letter spacing*/
+p {
+	font-size: larger
+	border: solid
+	letter-spacing: normal
 }
 
-/* this will make the page background black */
-body {
-    background-color: gray; /* bc dark mode 4 teh youngs */
+/* Here, the items in the list have a font of Time New Roman in the serif style for professionalism, a sqaure to indicate each item, and are more spread out with a line-hight of 2*/
+li {
+	font-family: "Times New Roman", Times, serif
+	list-style-type: square
+	line-height: 2
 }
+
