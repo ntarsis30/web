@@ -7,22 +7,22 @@
 
 /*Here, the top and largest heading heading will now have italic font, the heading will be clack, and it is now placed in the center of the webpage*/
 h1 {
-	font-style: italic
-	color: DarkSlateGrey
-	text-align: center
+	font-style: italic;
+	color: DarkSlateGrey;
+	text-align: center;
 }
 
 /* Here, the paragraphs have a larger font, a solid border, and have normal letter spacing*/
 p {
-	font-size: larger
-	border: solid
-	letter-spacing: normal
+	font-size: larger;
+	border: solid;
+	letter-spacing: normal;
 }
 
 /* Here, the items in the list have a font of Time New Roman in the serif style for professionalism, a sqaure to indicate each item, and are more spread out with a line-hight of 2*/
 li {
-	font-family: "Times New Roman", Times, serif
-	list-style-type: square
-	line-height: 2
+	font-family: "Times New Roman", Times, serif;
+	list-style-type: square;
+	line-height: 2;
 }
 
