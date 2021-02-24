@@ -26,3 +26,9 @@ li {
 	line-height: 2;
 }
 
+/* Here, the body now has a backgorung color of Aqua and a dark blue border made up of dashes*/
+body {
+	background-color: Aqua;
+  	border-color: DarkBlue;
+  	border-style: Dashed;
+}
